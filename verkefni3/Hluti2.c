@@ -3,6 +3,20 @@
 #pragma config(Motor,  port2,           rightMotor,    tmotorServoContinuousRotation, openLoop)
 #pragma config(Motor,  port3,           leftMotor,     tmotorServoContinuousRotation, openLoop, reversed)
 
+
+/*----------------------------------------------------------------------------------------------------*\
+|*                                     -  3.Hluti Verkefni 2 -                                    	  *|
+|*                                    ROBOTC on VEX 2.0 CORTEX                                        *|
+|* This program instructs the robot to move forward 0,5m then do a 90 deg turn left then move another *|
+|*  0.5m foward and do a 90deg turn righ then move forward again for 0.5m and turn 90deg right and    *|
+|*  move forward 0.5m and then the robot stops. The robot also stops when the button 7d is pressed.   *|
+|*          																																												  *|
+|*                                                                                                    *|
+|*         											      *|
+|*                                                 						      *|
+|       																																															*|
+\*----------------------------------------------------------------------------------------------------*/
+
 const float BASE_DIST = 600;
 void turn(int degrees10,bool counterclock){
 	SensorType[in8] = sensorNone;
