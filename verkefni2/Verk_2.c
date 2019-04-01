@@ -2,7 +2,16 @@
 #pragma config(Sensor, dgtl3,  leftEncoder,    sensorQuadEncoder)
 #pragma config(Motor,  port2,           rightMotor,    tmotorServoContinuousRotation, openLoop)
 #pragma config(Motor,  port3,           leftMotor,     tmotorServoContinuousRotation, openLoop, reversed)
-
+/*----------------------------------------------------------------------------------------------------*\
+|*                                     -  2.Hluti Verkefni 2 -                                        *|
+|*                                    ROBOTC on VEX 2.0 CORTEX                                        *|
+|* 			This program instructs the robot to move straight                    	      *|
+|*          																																												  *|
+|*                                                                                                    *|
+|*          Notes: U 87,9cm   					Thermal = 7 * pi = 22		encoder = 360 = U											*|
+|*          const int =87,9 /21,99 = 3,99 *90 = 359,1                                                 *|
+|       																																															*|
+\*----------------------------------------------------------------------------------------------------*/
 bool b_f = true;
 //+0.1*0.314*360= 11.304
 const float BASE_DIST = 500;
