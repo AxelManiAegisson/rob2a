@@ -2,7 +2,18 @@
 #pragma config(Sensor, dgtl3,  leftEncoder,    sensorQuadEncoder)
 #pragma config(Motor,  port2,           rightMotor,    tmotorServoContinuousRotation, openLoop)
 #pragma config(Motor,  port3,           leftMotor,     tmotorServoContinuousRotation, openLoop, reversed)
-
+/*----------------------------------------------------------------------------------------------------*\
+|*                                     -  2.Hluti Verkefni 3 -                                    	  *|
+|*                                    ROBOTC on VEX 2.0 CORTEX                                        *|
+|* This program instructs the robot to move forward 0,5m then do a 90 deg turn left then move another *|
+|*  0.5m foward and do a 90deg turn righ then move forward again for 0.5m and it repeats this process 
+    14 times   											      *|
+|*          																																												  *|
+|*                                                                                                    *|
+|*          						      					      *|
+|*          					                                                      *|
+|       																																															*|
+\*----------------------------------------------------------------------------------------------------*/
 const float BASE_DIST = 600;
 void turn(int degrees10,bool counterclock){
 	SensorType[in8] = sensorNone;
