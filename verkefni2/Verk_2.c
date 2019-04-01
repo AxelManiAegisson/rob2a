@@ -8,8 +8,7 @@
 |* 			This program instructs the robot to move straight                    	      *|
 |*          																																												  *|
 |*                                                                                                    *|
-|*          Notes: U 87,9cm   					Thermal = 7 * pi = 22		encoder = 360 = U											*|
-|*          const int =87,9 /21,99 = 3,99 *90 = 359,1                                                 *|
+|*         						                                              *|
 |       																																															*|
 \*----------------------------------------------------------------------------------------------------*/
 bool b_f = true;
